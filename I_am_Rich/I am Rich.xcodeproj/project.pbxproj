@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E148B29C57D21D6C013F1AD8 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148BE91CFA16CAE4251FB59 /* Tests_macOSLaunchTests.swift */; };
+		E148B4F852B44E83FADBC20A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148BA698993E629BAF38734 /* ContentView.swift */; };
+		E148B6712019F3CE7C8B28E4 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148B8C853EAB75608CDB851 /* Tests_iOSLaunchTests.swift */; };
+		E148B69202460976A2227E86 /* I_am_RichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148BD2EDDCCB49F4FF8B7EF /* I_am_RichApp.swift */; };
+		E148B8307966278F82D4B96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E148B1E26A9DAF0B560E6093 /* Assets.xcassets */; };
+		E148BB0EBCC413C6F3630E54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148BA698993E629BAF38734 /* ContentView.swift */; };
+		E148BC9C099232A6087DAFAA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148B318CB498EA5A9EB2992 /* Tests_iOS.swift */; };
+		E148BD1C91C431C888C5AB47 /* I_am_RichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148BD2EDDCCB49F4FF8B7EF /* I_am_RichApp.swift */; };
+		E148BDA6CFFD186FEA70ED37 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148B1299E7B56B2FF808B3B /* Tests_macOS.swift */; };
+		E148BEBC7FC04D910C133235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E148B1E26A9DAF0B560E6093 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E148B75A6C03678CD3F481CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E148B909BDF717562FC6BB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E148BAF5F7A79AB595DC9EAB;
+			remoteInfo = "I am Rich (macOS)";
+		};
+		E148BF9B3051EA60FA4953D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E148B909BDF717562FC6BB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E148B6840DDB3BA3C1A629C3;
+			remoteInfo = "I am Rich (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E148B1299E7B56B2FF808B3B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		E148B1E26A9DAF0B560E6093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E148B30DF6F9B78CA7C1DEC3 /* I am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E148B318CB498EA5A9EB2992 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		E148B8C853EAB75608CDB851 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		E148BA698993E629BAF38734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E148BD2EDDCCB49F4FF8B7EF /* I_am_RichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_am_RichApp.swift; sourceTree = "<group>"; };
+		E148BD58B61C64C7B773CA1A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E148BD96C3123B0E3F6212C6 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E148BE91CFA16CAE4251FB59 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E148BEE1D664B596D92F3DEA /* I am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E148BEF28F3D096E902C652E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E148B23AAD499A2E1B70482A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B344699FD62E25B43F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B55174E1026ED36AE29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B7B4BDD2C7029641AADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E148B1F59813923BEEA12284 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E148B1299E7B56B2FF808B3B /* Tests_macOS.swift */,
+				E148BE91CFA16CAE4251FB59 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		E148B34FFF094AB4E5293D8E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E148B318CB498EA5A9EB2992 /* Tests_iOS.swift */,
+				E148B8C853EAB75608CDB851 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		E148BA6AE7FDD33E7EB33A76 = {
+			isa = PBXGroup;
+			children = (
+				E148BAA0176F0CCA1AFC6852 /* Products */,
+				E148BB5A2B79D5BAF885B855 /* Shared */,
+				E148BB591E72EBDAC93E2B34 /* macOS */,
+				E148B34FFF094AB4E5293D8E /* Tests iOS */,
+				E148B1F59813923BEEA12284 /* Tests macOS */,
+			);
+			sourceTree = "<group>";
+		};
+		E148BAA0176F0CCA1AFC6852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E148B30DF6F9B78CA7C1DEC3 /* I am Rich.app */,
+				E148BEE1D664B596D92F3DEA /* I am Rich.app */,
+				E148BD96C3123B0E3F6212C6 /* Tests iOS.xctest */,
+				E148BEF28F3D096E902C652E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E148BB591E72EBDAC93E2B34 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E148BD58B61C64C7B773CA1A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		E148BB5A2B79D5BAF885B855 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E148B1E26A9DAF0B560E6093 /* Assets.xcassets */,
+				E148BD2EDDCCB49F4FF8B7EF /* I_am_RichApp.swift */,
+				E148BA698993E629BAF38734 /* ContentView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E148B0C1B7D8F00639A88F3D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E148BABD439463A08E45815D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				E148BEE2CA0CE386749725D4 /* Sources */,
+				E148B55174E1026ED36AE29F /* Frameworks */,
+				E148B47D3AF1A1C67E1EEFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E148B3948BE3C357539FE1F1 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = E148BD96C3123B0E3F6212C6 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E148B1F1BE3D41ED19C0B208 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E148BDE26D79E447EA734F1B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				E148B13D5CCEF5A4AB234D38 /* Sources */,
+				E148B7B4BDD2C7029641AADB /* Frameworks */,
+				E148BFEABE386D16028151FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E148B0140E231DE53DFF1687 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = E148BEF28F3D096E902C652E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E148B6840DDB3BA3C1A629C3 /* I am Rich (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E148B8C9B1A01B662B231F69 /* Build configuration list for PBXNativeTarget "I am Rich (iOS)" */;
+			buildPhases = (
+				E148B43D54A3520BEFEF41FC /* Sources */,
+				E148B23AAD499A2E1B70482A /* Frameworks */,
+				E148B5A9141DEA4BF993EFA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I am Rich (iOS)";
+			productName = "I am Rich (iOS)";
+			productReference = E148B30DF6F9B78CA7C1DEC3 /* I am Rich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E148BAF5F7A79AB595DC9EAB /* I am Rich (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E148BCE97C6C9CC029B3E8E7 /* Build configuration list for PBXNativeTarget "I am Rich (macOS)" */;
+			buildPhases = (
+				E148B35F21C90388AE3EF431 /* Sources */,
+				E148B344699FD62E25B43F03 /* Frameworks */,
+				E148B555F7F604ACEC1ED8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I am Rich (macOS)";
+			productName = "I am Rich (macOS)";
+			productReference = E148BEE1D664B596D92F3DEA /* I am Rich.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E148B909BDF717562FC6BB44 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E148BE1144895E1DCCE9B9BA /* Build configuration list for PBXProject "I am Rich" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E148BA6AE7FDD33E7EB33A76;
+			productRefGroup = E148BAA0176F0CCA1AFC6852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E148B6840DDB3BA3C1A629C3 /* I am Rich (iOS) */,
+				E148BAF5F7A79AB595DC9EAB /* I am Rich (macOS) */,
+				E148B0C1B7D8F00639A88F3D /* Tests iOS */,
+				E148B1F1BE3D41ED19C0B208 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E148B47D3AF1A1C67E1EEFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B555F7F604ACEC1ED8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E148BEBC7FC04D910C133235 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B5A9141DEA4BF993EFA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E148B8307966278F82D4B96A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148BFEABE386D16028151FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E148B13D5CCEF5A4AB234D38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E148BDA6CFFD186FEA70ED37 /* Tests_macOS.swift in Sources */,
+				E148B29C57D21D6C013F1AD8 /* Tests_macOSLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B35F21C90388AE3EF431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E148B69202460976A2227E86 /* I_am_RichApp.swift in Sources */,
+				E148B4F852B44E83FADBC20A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148B43D54A3520BEFEF41FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E148BD1C91C431C888C5AB47 /* I_am_RichApp.swift in Sources */,
+				E148BB0EBCC413C6F3630E54 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E148BEE2CA0CE386749725D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E148BC9C099232A6087DAFAA /* Tests_iOS.swift in Sources */,
+				E148B6712019F3CE7C8B28E4 /* Tests_iOSLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E148B0140E231DE53DFF1687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E148BAF5F7A79AB595DC9EAB /* I am Rich (macOS) */;
+			targetProxy = E148B75A6C03678CD3F481CA /* PBXContainerItemProxy */;
+		};
+		E148B3948BE3C357539FE1F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E148B6840DDB3BA3C1A629C3 /* I am Rich (iOS) */;
+			targetProxy = E148BF9B3051EA60FA4953D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E148B29452345AFA86B4C8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.I am Rich";
+				PRODUCT_NAME = "I am Rich";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E148B380EB10213F427ADC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I am Rich (iOS)";
+			};
+			name = Release;
+		};
+		E148B3F7B74AEB7242B2F78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E148B6A131EB7C14E9EECF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "I am Rich (macOS)";
+			};
+			name = Release;
+		};
+		E148B746CE624AE532FEA574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.I am Rich";
+				PRODUCT_NAME = "I am Rich";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E148B84380D4F7F3398019E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.I am Rich";
+				PRODUCT_NAME = "I am Rich";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E148B858E3F6733975AE891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I am Rich (iOS)";
+			};
+			name = Debug;
+		};
+		E148BB99C7AE9FC38E15D53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "I am Rich (macOS)";
+			};
+			name = Debug;
+		};
+		E148BBC3A1487F8D9D6CFDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E148BC2315ED402CC9CB2269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.appbrewery.I am Rich";
+				PRODUCT_NAME = "I am Rich";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E148B8C9B1A01B662B231F69 /* Build configuration list for PBXNativeTarget "I am Rich (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E148B84380D4F7F3398019E5 /* Debug */,
+				E148B746CE624AE532FEA574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E148BABD439463A08E45815D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E148B858E3F6733975AE891B /* Debug */,
+				E148B380EB10213F427ADC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E148BCE97C6C9CC029B3E8E7 /* Build configuration list for PBXNativeTarget "I am Rich (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E148BC2315ED402CC9CB2269 /* Debug */,
+				E148B29452345AFA86B4C8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E148BDE26D79E447EA734F1B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E148BB99C7AE9FC38E15D53E /* Debug */,
+				E148B6A131EB7C14E9EECF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E148BE1144895E1DCCE9B9BA /* Build configuration list for PBXProject "I am Rich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E148B3F7B74AEB7242B2F78A /* Debug */,
+				E148BBC3A1487F8D9D6CFDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E148B909BDF717562FC6BB44 /* Project object */;
+}
