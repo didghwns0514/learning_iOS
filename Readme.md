@@ -10,8 +10,10 @@
 
 ### TIL 강의
 
-#### 1. 야곰- Swift문법
+#### 1. 야곰- 앱 제작 프로토타입
 1) introduction
 2) Project review!
    1) [img.png](img_dir/imt_1.png)
 3) introduction for app development
+
+#### 2. 야곰- Swift문법
