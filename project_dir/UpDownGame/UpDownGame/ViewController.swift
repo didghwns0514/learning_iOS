@@ -15,6 +15,11 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
     }
+    
+    @IBAction
+    func sliderValueChanged(_ sender: UISlider){
+        print(sender.value)
+    }
 
 
 
