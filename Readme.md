@@ -16,6 +16,7 @@
 2. Project review!
    1. [img.png](img_dir/imt_1.png)
 3. introduction for app development
+4. 7, 8 iOS UIKit 강의 수강
 
 #### 2. 야곰- Swift문법
 
