@@ -18,6 +18,8 @@
 3. introduction for app development
 4. 7, 8 iOS UIKit 강의 수강
 
+
 #### 2. 야곰- Swift문법
 
 1. 기본 문법 + function 까지 수강완료
+2. 9 ~ 13강 : 조건문, 반복문, 옵셔널, 옵셔널 값 추출
