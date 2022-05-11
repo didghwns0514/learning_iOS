@@ -21,3 +21,4 @@
 #### 2. 야곰- Swift문법
 
 1. 기본 문법 + function 까지 수강완료
+2. 14 lecture : class, struct, enum
