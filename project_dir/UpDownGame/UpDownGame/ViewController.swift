@@ -25,6 +25,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction
+    func touchUpResetButton(_ sender: UIButton){
+        slider.value = 15
+        print(slider.value)
+    }
+    
+    @IBAction
     func sliderValueChanged(_ sender: UISlider){
         print(sender.value)
     }
