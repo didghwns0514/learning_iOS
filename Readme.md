@@ -24,3 +24,4 @@
 2. 9 ~ 13강 : 조건문, 반복문, 옵셔널, 옵셔널 값 추출
 3. 14 ~ 15 lecture : class, enum, struct
 4. 16 ~ 19 lecture : closure, property, property inspecter, inheritance
+5. 20 ~ 22 lecture : instance creation/destruction, optional chaining, type casting(up/down)
