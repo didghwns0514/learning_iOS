@@ -25,3 +25,7 @@
 3. 14 ~ 15 lecture : class, enum, struct
 4. 16 ~ 19 lecture : closure, property, property inspecter, inheritance
 5. 20 ~ 22 lecture : instance creation/destruction, optional chaining, type casting(up/down)
+
+#### iOS 기본 문법 공부
+
+1. [서근 개발노트](https://seons-dev.tistory.com/entry/Swift-기초-문법-모음)
