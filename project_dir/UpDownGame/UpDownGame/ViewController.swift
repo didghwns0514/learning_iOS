@@ -20,8 +20,10 @@ class ViewController: UIViewController {
     
 
     override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+//        slider.setThumbImage(UIImage(imageLiteralResourceName: "slider_thumb"), for: .normal)
     }
     
     @IBAction
