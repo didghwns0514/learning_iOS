@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        slider.setThumbImage(UIImage(imageLiteralResourceName: "slider_thumb"), for: .normal)
+        slider.setThumbImage(UIImage(imageLiteralResourceName: "slider_thumb"), for: .normal)
     }
     
     @IBAction
